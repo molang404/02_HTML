@@ -55,7 +55,7 @@ aside a {
     color: #3498db;
 }
 
-section {                          /* 그림자 */
+section {
     display: flex;
     flex-direction: column;
     gap: 20px
@@ -65,7 +65,7 @@ section {                          /* 그림자 */
     background-color: white;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 5px 10px 15px 2px #999999;
+    box-shadow: 5px 10px 15px 2px #999999;         /* 그림자 */
 }
 
 article {
