@@ -150,6 +150,8 @@ body {
     align-items: center;
     font-size: 20px;
     font-weight: 600;
+    background-color: white;
+    color: #1e293b;
 }
 
 .stats-row:first-child {
