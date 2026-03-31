@@ -44,7 +44,47 @@
             </div>
         </header>
         <div class="content-wrapper">
-            <div></div>
+            <div class="user-card">
+                <div class="user-profile">
+                    <div class="user-avatar">A</div>
+                    <div class="up-btn">
+                        <i class="fa-solid fa-cloud-arrow-up"></i>
+                        <span>Upload</span>
+                    </div>
+                    <div class="remove-btn">
+                        <i class="fa-solid fa-trash-can"></i>
+                        <span>Remove</span>
+                    </div>
+                </div>
+                <div class="user-details">
+                    <form method="get" action="https://postman-echo.com/post">
+                        <div class="user-name">
+                            <div>
+                                <label class="inputBar">
+                                    <span class="font">First name</span>
+                                    <input class="input-box" type="text" name="firstname" placeholder="First name" />
+                                </label>
+                            </div>
+                            <div>
+                                <label class="inputBar">
+                                    <span class="font">Last name</span>
+                                    <input class="input-box" type="text" name="lastname" placeholder="Last name" />
+                                </label>
+                            </div>
+                        </div>
+                        <label class="inputBar">
+                            <span class="font">Email Address</span>
+                            <input class="input-box" type="email" name="email" placeholder="Email" />
+                        </label>
+                        <label class="inputBar">
+                            <span class="font">Phone Number</span>
+                            <input class="input-box" type="tel" name="tel" placeholder="Phone Number" />
+                        </label>
+                    </form>
+                    <div></div>
+                </div>
+                <div class="post-btn"></div>
+            </div>
         </div>
     </main>
 </div>
