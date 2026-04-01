@@ -207,9 +207,48 @@ body {
     color: #111827;
 }
 
-.form-group input:hover {
+.form-group input:focus {
     outline: none;
     border-color: #2563eb;
+}
+
+.custom-checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.hidden-checkbox {
+    display: none;  /* 화면에 출력되지 않게 함, 대신 html 코드는 있음 */
+}
+
+.checkbox-box {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #d1d5db;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: all 0.5s;
+    padding-bottom: 3px;
+    margin-right: 10px;
+}
+
+/* + 는 형제 관계에서 선택할 때 사용 */
+.hidden-checkbox:checked + .checkbox-box {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.checkmark-icon {
+    width: 6px;
+    height: 10px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
 }
 
 .form-actions {
